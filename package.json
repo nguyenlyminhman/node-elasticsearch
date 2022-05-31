@@ -1,0 +1,37 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "description": "research elastic search",
+  "main": "index.js",
+  "scripts": {
+    "start": "src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenlyminhman/node-elasticsearch.git"
+  },
+  "keywords": [
+    "elastic",
+    "elasticsearch"
+  ],
+  "author": "man.nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenlyminhman/node-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/nguyenlyminhman/node-elasticsearch#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
